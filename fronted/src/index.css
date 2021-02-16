@@ -1,0 +1,38 @@
+:root {
+    --color-navibtn:#007782;
+    --color-singupbtn: #3b4144;
+    --singupbtnborder:#cdd1d4;
+    --singupbtnhovercolor:#3b4144;
+    --bgsingup:#1b75cf;
+    --menuside:#3b4144;
+    --color-menucenter:#3b4144;
+    --color-search:#98dde3;
+
+  }
+  
+
+/* ./src/index.css */
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+
+.logoPhotos{
+    width: 70px;
+    height: 24px;
+
+    display: inline-block;
+    line-height: 0;
+    }
+
+
+    .menuNav1
+  {
+      display: inline-block;
+      font-size: 0px;
+      width: 24px !important;
+      height: 24px !important;
+  }
